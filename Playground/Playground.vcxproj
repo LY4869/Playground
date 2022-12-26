@@ -58,7 +58,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>$(SolutionDir)Playground\Dependencies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Playground\Dependencies;$(SolutionDir)Playground\src\Class;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -74,7 +74,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>$(SolutionDir)Playground\Dependencies;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Playground\Dependencies;$(SolutionDir)Playground\src\Class;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -84,10 +84,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Class\AActor\AActor.cpp" />
+    <ClCompile Include="src\Class\Command\MoveCommand.cpp" />
+    <ClCompile Include="src\Class\Command\Command.cpp" />
+    <ClCompile Include="src\Class\FVector\FVector.cpp" />
     <ClCompile Include="src\Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Class\AActor\AActor.h" />
+    <ClInclude Include="src\Class\Command\MoveCommand.h" />
+    <ClInclude Include="src\Class\Command\Command.h" />
     <ClInclude Include="Dependencies\bits\bits-stdc++.h" />
+    <ClInclude Include="src\Class\FVector\FVector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
