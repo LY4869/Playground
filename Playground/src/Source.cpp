@@ -1,16 +1,19 @@
-#include <bits/bits-stdc++.h>
-#include <FVector/FVector.h>
+#include <Core.h>
 #include <Command/Command.h>
 #include <Command/MoveCommand.h>
 #include <AActor/AActor.h>
+#include <Controller/Controller.h>
 
 int main()
 {
+	AActor* const actor = new AActor("billy");
+	if (Controller* const controller = actor->GetController())
+	{
+		controller->ExecuteCommand(new MoveCommand(EDirection::Right));
+		log(actor->GetActorLocation());
 
-	AActor* actor = new AActor("billy", FVector(1, 2));
-	Command* command = new MoveCommand();
-	
-	command->Execute(actor);
-
+		controller->ExecuteCommand(new MoveCommand(EDirection::Right));
+		log(actor->GetActorLocation());
+	}
 	return 0;
 }

@@ -30,6 +30,9 @@
     <ClCompile Include="src\Class\AActor\AActor.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="src\Class\Controller\Controller.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dependencies\bits\bits-stdc++.h">
@@ -45,6 +48,15 @@
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="src\Class\AActor\AActor.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Class\Controller\Controller.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\Core.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Class\FMath\FMath.hpp">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>
