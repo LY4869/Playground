@@ -33,6 +33,15 @@
     <ClCompile Include="src\Class\Controller\Controller.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="src\Class\Observer\Observer.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Class\Observer\Achievement.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Class\User\User.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dependencies\bits\bits-stdc++.h">
@@ -57,6 +66,15 @@
       <Filter>標頭檔</Filter>
     </ClInclude>
     <ClInclude Include="src\Class\FMath\FMath.hpp">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Class\Observer\Observer.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Class\Observer\Achievement.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Class\User\User.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
   </ItemGroup>
