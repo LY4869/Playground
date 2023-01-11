@@ -95,6 +95,8 @@
     <ClCompile Include="src\Class\User\User.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Class\Entity\Entity.h" />
+    <ClInclude Include="src\Class\FString\FString.h" />
     <ClInclude Include="src\Class\Observer\Achievement.h" />
     <ClInclude Include="Dependencies\Core.h" />
     <ClInclude Include="src\Class\Observer\Observer.h" />

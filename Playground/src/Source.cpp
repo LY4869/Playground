@@ -7,8 +7,19 @@
 #include <Observer/Achievement.h>
 #include <User/User.h>
 #include <Singleton/Singleton.h>
+#include <FString/FString.h>
+#include <Entity/Entity.h>
+
+static constexpr int n = 5;
 
 int main()
 {
+	std::vector<FString> strings;
+	strings.reserve(n);
+
+	for (int i = 0; i < n; i++)
+		strings.emplace_back("ABC");
+
+	std::cin.get();
 	return 0;
 }
