@@ -105,6 +105,7 @@
     <ClInclude Include="Dependencies\bits\bits-stdc++.h" />
     <ClInclude Include="src\Class\FMath\FMath.hpp" />
     <ClInclude Include="src\Class\FVector\FVector.h" />
+    <ClInclude Include="src\Class\Singleton\Singleton.h" />
     <ClInclude Include="src\Class\User\User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

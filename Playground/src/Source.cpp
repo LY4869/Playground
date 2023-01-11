@@ -6,19 +6,9 @@
 #include <Observer/Observer.h>
 #include <Observer/Achievement.h>
 #include <User/User.h>
+#include <Singleton/Singleton.h>
 
 int main()
 {
-	User* user = new User();
-	user->account = "leee";
-	user->password = "123";
-
-	user->characters.push_back(new AActor("billy"));
-	if (AActor* actor = user->characters.back())
-	{
-		Achievement achievement;
-		achievement.OnNotify(actor, Event::FirstStart);
-	}
-
 	return 0;
 }
