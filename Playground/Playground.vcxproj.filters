@@ -42,6 +42,9 @@
     <ClCompile Include="src\Class\User\User.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="Dependencies\Core.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dependencies\bits\bits-stdc++.h">
