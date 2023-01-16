@@ -14,12 +14,13 @@ static constexpr int n = 5;
 
 int main()
 {
-	std::vector<FString> strings;
-	strings.reserve(n);
+	TArray<int> arr;
+	arr.Add(2);
+	arr.Add(2);
+	arr.Add(2);
+	log(arr.Num());
 
-	for (int i = 0; i < n; i++)
-		strings.emplace_back("ABC");
-
+	log("press any key to continue");
 	std::cin.get();
 	return 0;
 }
