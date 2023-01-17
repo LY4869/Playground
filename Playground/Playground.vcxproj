@@ -104,6 +104,7 @@
     <ClCompile Include="src\Class\User\User.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Dependencies\TArray\TArray.hpp" />
     <ClInclude Include="src\Class\Entity\Entity.h" />
     <ClInclude Include="src\Class\FString\FString.h" />
     <ClInclude Include="src\Class\Observer\Achievement.h" />

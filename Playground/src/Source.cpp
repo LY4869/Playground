@@ -14,13 +14,13 @@ static constexpr int n = 5;
 
 int main()
 {
-	TArray<int> arr;
-	arr.Add(2);
-	arr.Add(2);
-	arr.Add(2);
-	log(arr.Num());
+	TArray<int> nums(n);
+	for (int i = 0; i < n; i++)
+		nums[i] = i;
+	for (const auto& ele : nums.Get())
+		log(ele);
 
-	log("press any key to continue");
+	log("Press enter to continue...");
 	std::cin.get();
 	return 0;
 }
