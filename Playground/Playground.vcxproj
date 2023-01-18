@@ -99,6 +99,8 @@
     <ClCompile Include="src\Class\Command\MoveCommand.cpp" />
     <ClCompile Include="src\Class\Command\Command.cpp" />
     <ClCompile Include="src\Class\FVector\FVector.cpp" />
+    <ClCompile Include="src\Extern\AnotherCpp1.cpp" />
+    <ClCompile Include="src\Extern\AnotherCpp2.cpp" />
     <ClCompile Include="src\NameSpace\B.cpp" />
     <ClCompile Include="src\Source.cpp" />
     <ClCompile Include="src\Class\User\User.cpp" />
@@ -119,6 +121,7 @@
     <ClInclude Include="src\Class\FVector\FVector.h" />
     <ClInclude Include="src\Class\Singleton\Singleton.h" />
     <ClInclude Include="src\Class\User\User.h" />
+    <ClInclude Include="src\Extern\Extern.h" />
     <ClInclude Include="src\NameSpace\A.h" />
     <ClInclude Include="src\NameSpace\B.h" />
   </ItemGroup>

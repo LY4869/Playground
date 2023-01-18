@@ -12,6 +12,8 @@
     <ClCompile Include="src\NameSpace\B.cpp" />
     <ClCompile Include="src\Source.cpp" />
     <ClCompile Include="src\Class\User\User.cpp" />
+    <ClCompile Include="src\Extern\AnotherCpp1.cpp" />
+    <ClCompile Include="src\Extern\AnotherCpp2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Class\Entity\Entity.h" />
@@ -31,5 +33,6 @@
     <ClInclude Include="src\NameSpace\A.h" />
     <ClInclude Include="src\NameSpace\B.h" />
     <ClInclude Include="Dependencies\TArray\TArray.hpp" />
+    <ClInclude Include="src\Extern\Extern.h" />
   </ItemGroup>
 </Project>

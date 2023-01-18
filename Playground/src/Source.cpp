@@ -14,12 +14,6 @@ static constexpr int n = 5;
 
 int main()
 {
-	TArray<int> nums(n);
-	for (int i = 0; i < n; i++)
-		nums[i] = i;
-	for (const auto& ele : nums.Get())
-		log(ele);
-
 	log("Press enter to continue...");
 	std::cin.get();
 	return 0;
